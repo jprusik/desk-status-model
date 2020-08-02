@@ -36,18 +36,28 @@ This project aims to make it easy for anyone with a little technical inclination
 These are the components used in the configuration shown above, but there's a lot of flexibility, depending on the features you'd like.
 
 - 1x Enclosure (models are included in this project for 3D printing)
-- 1x 0.96 inch OLED (128x64 resolution)
+- 1x 0.96-inch OLED (128x64 resolution)
 - 1x Raspberry Pi Zero (wifi variant means one less cable to worry about)
 - (optional) 1x micro USB LAN adapter (required for the non-wireless Raspberry Pi Zero variant)
-- (optional) 1x RGB LED (required for status light features)
+- (optional) 1x 5mm RGB LED (required for status light features) and resistors
 - 1x microSD card (4GB or more is sufficient)
-- 8x Jumper cables
+- 8x Jumper cables or otherwise suitable wire
 - 4x M2.5 screws
 - 1x set of header pins
 
 ## Model versions
 
-If you are printing your own enclosure, there are a few different models available, based on your components and desired configuration:
+If you are printing your own enclosure, there are a few different models available depending on your components and desired configuration.
+
+If you plan to use an LED as a status light, be sure to use the `body-with-top-hole` model for the body of your desired variant.
+
+Note, there are currently two model categories based on the form-factor of the OLED screen + board (both have 0.96-inch screens, however):
+
+Smaller variant - OLED display with board measures at approximately 2.4 cm x 1.4 cm
+
+Larger variant - OLED display with board measures at approximately 2.7 cm x 2.7 cm
+
+Additionally, there is a version with the Robin logo cutout from the inside of the enclosure to allow illumination by the status light.
 
 ## Assembly
 
