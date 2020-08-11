@@ -77,6 +77,8 @@ Additionally, there is a version with the Robin logo cutout from the inside of t
     | LED Blue | 7 / GPIO4 |
     | LED Common Ground | 9 / Ground |
 
+    ![wiring mockup](./media/wiring-mockup.png)
+
     **Note:** Be sure to take note of your LED's GPIO pin numbers, as you'll need to reference them in your configuration during software setup.
 3. Insert [the prepared microSD](https://github.com/jprusik/desk-status) into the Raspberry Pi Zero.
 4. Insert the OLED display into the enclosure (depending on the enclosure you're using and how your header pins are configured, you may need to disconnect the OLED display cables temporarily; be sure to note their position and reconnect them once the screen is in).
